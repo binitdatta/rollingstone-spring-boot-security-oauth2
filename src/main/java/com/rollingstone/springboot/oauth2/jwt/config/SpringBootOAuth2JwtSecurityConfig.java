@@ -28,7 +28,7 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SpringBootOAuth2JwtSecurityConfig extends WebSecurityConfigurerAdapter {
-    static final String SIGNING_KEY = "AugPLCURT1973DHD16";
+    static final String SIGNING_KEY = "JanPLCURT2003DHD16";
     static final Integer ENCODING_STRENGTH = 256;
     static final String SECURITY_REALM = "Sprinb Boot OAuth2 JWT Sample Security Realm";
 
